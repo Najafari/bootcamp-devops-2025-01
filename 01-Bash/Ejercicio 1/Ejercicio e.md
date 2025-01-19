@@ -1,2 +1,2 @@
 # Copia de Archivos Grandes
-ls -lh 
+ls -lh -S 
