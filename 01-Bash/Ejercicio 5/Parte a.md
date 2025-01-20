@@ -7,4 +7,9 @@ curl -f -- funciona descargando solo si la URL es valida
 ```bash
 sed -e '316{H;d}' e- '516G'
 ```
-# Usando vim seria mas facil
+# Usando vim seria mas facil (personalmente)
+vim install-docker.sh
+yy en la linea 316
+dd para borrar la linea 316
+P pegar en la linea 516
+:wq para guardar y salir
