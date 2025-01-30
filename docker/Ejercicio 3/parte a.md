@@ -21,3 +21,7 @@ COPY sirve para copiar archivos desde un punto a otro, mientras que ADD se usa p
 Parte e:
 
 Entrypoint es un comando especifico que debe correr la imagen luego de comenzar, RUN permite ejecutar comandos dentro de un container y CMD
+
+Parte d:
+
+Se agrega en el mismo directorio que el dockerfile un archivo .dockerignore con los archivos que no deben ser copiados, de esa forma el docker ignora esos archivos y copia lo demas.
